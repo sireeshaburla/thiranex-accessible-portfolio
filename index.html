@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Burla Hema Sireesha, a web development student building accessible and user-friendly digital experiences.">
+  <meta name="theme-color" content="#101827">
+  <title>Burla Hema Sireesha | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Burla Hema Sireesha home">BHS<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span>
+      </button>
+      <nav id="primary-navigation" class="nav" aria-label="Primary navigation">
+        <ul>
+          <li><a aria-current="page" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a class="nav-cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Web Development • Student</p>
+        <h1 id="hero-title">Hello, I’m <span>Burla Hema Sireesha.</span></h1>
+        <p class="lead">I enjoy building clear, responsive and accessible websites that make technology easier to use.</p>
+        <div class="actions">
+          <a class="button" href="projects.html">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Portfolio focus">
+        <div class="avatar" aria-hidden="true">BHS</div>
+        <p class="card-label">Currently focusing on</p>
+        <h2>Accessible web experiences</h2>
+        <p>Semantic HTML, responsive design, JavaScript and thoughtful user experience.</p>
+        <div class="pills"><span>HTML5</span><span>CSS</span><span>JavaScript</span></div>
+      </aside>
+    </section>
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A little about me</p>
+          <h2>Learning by building</h2>
+          <p>I turn concepts into practical projects and keep improving them through feedback, testing and iteration.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><span class="feature-icon" aria-hidden="true">⌘</span><h3>Problem solving</h3><p>Breaking a challenge into small, manageable steps and finding a useful solution.</p></article>
+          <article class="feature-card"><span class="feature-icon" aria-hidden="true">◎</span><h3>Inclusive design</h3><p>Creating interfaces that work with keyboard navigation, assistive technology and different screen sizes.</p></article>
+          <article class="feature-card"><span class="feature-icon" aria-hidden="true">↗</span><h3>Continuous learning</h3><p>Practising new tools and strengthening my development skills through projects.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="container closing-cta">
+      <div><p class="eyebrow">Have a project in mind?</p><h2>Let’s build something useful.</h2></div>
+      <a class="button" href="contact.html">Contact me <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span data-year>2026</span> Burla Hema Sireesha</p><p>Designed with accessibility in mind.</p></div></footer>
+</body>
+</html>
